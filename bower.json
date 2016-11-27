@@ -1,11 +1,8 @@
 {
-  "name": "bugbuster-selector",
+  "name": "mixsoundcloud-player",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "~1.2.16",
-    "underscore": "~1.6.0",
-    "bootstrap": "~3.1.1",
-    "jquery": "~2.1.1"
+    "angular": "~1.5.9"
   },
   "devDependencies": {}
 }

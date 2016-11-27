@@ -1,5 +1,5 @@
 {
-  "name": "bugbuster-selector",
+  "name": "mixsoundcloud-player",
   "version": "0.0.0",
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -17,7 +17,6 @@
     "grunt-contrib-compress": "~0.4.7",
     "grunt-contrib-watch": "~0.5.2",
     "grunt-usemin": "~0.1.10",
-    "grunt-mocha": "~0.4.0",
     "grunt-open": "~0.2.0",
     "grunt-svgmin": "~0.2.0",
     "grunt-concurrent": "~0.3.0",
