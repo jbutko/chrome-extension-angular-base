@@ -28,7 +28,6 @@ module.exports = function (grunt) {
         connect: {
             options: {
                 hostname: 'localhost',
-
             },
             keepalive: {
                 options: {
@@ -55,6 +54,21 @@ module.exports = function (grunt) {
                     }
                 }
             }
+        },
+        browserSync: {
+            bsFiles: {
+                src : [
+                    'app/css/*.css',
+                    'app/popup.html'
+                ]
+            },
+            options: {
+                server: {
+                    baseDir: './app',
+                    index: 'popup.html'
+                }
+            }
+
         },
         clean: {
             dist: {
